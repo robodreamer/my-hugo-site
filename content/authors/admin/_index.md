@@ -2,7 +2,16 @@
 title: Andy Park
 role: Applied Research Scientist at Boston Dynamics AI Institute
 avatar_filename: andy-profile-photo.png
-bio: ""
+bio: I obtained my PhD at Purdue University in Electrical & Computer Engineering
+  and in May 2016. During my PhD years, I worked as Research Assistant at
+  [Assistive Robotics Technology Lab (ART
+  Lab)](https://engineering.purdue.edu/artlab) directed by Prof. C. S. George
+  Lee. In 2012-2013, I was the Control Lead for ladder climbing task in DRC-Hubo
+  team for DARPA Robotics Challenge (DRC) Trials. My research interests are
+  whole-body motion control of humanoid robots and coordinated dual-arm motion
+  control for various manipulation tasks. I graduated from Kwangwoon University
+  in 2009 with Summa Cum Laude (1st/109) for Bachelor’s degree in Electronic
+  Engineering.
 interests:
   - Artificial Intelligence
   - Computational Linguistics
@@ -11,38 +20,29 @@ social:
   - icon: envelope
     icon_pack: fas
     link: /#contact
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
   - icon: graduation-cap
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?hl=en&user=29mKTmQAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/robodreamer
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/robodreamer
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: The Boston Dynamics AI Institute
+    url: https://theaiinstitute.com/
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
+    - course: PhD in Electrical and Computer Engineering (Robotics)
+      institution: Purdue University
+      year: 2015
+    - course: BSc in Electronic Engineering
+      institution: Kwangwoon University
       year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
 superuser: true
 status:
   icon: ☕️
