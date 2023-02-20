@@ -30,11 +30,32 @@ module:
 ## ADVANCED
 ############################
 
+# backend:
+#   name: git-gateway
+#   repo: robodreamer/starter-hugo-academic
+#   branch: master
+# local_backend: true
+
 backend:
-  name: git-gateway
-  repo: robodreamer/starter-hugo-academic
-  branch: master
+  name: github
+
 local_backend: true
+
+media_folder: "static/uploads/"
+public_folder: "/uploads"
+
+collections:
+
+  - name: "blog"
+    label: "Blog"
+    folder: "content/"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
 
 enableGitInfo: false
 summaryLength: 30
